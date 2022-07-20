@@ -1,0 +1,962 @@
+[
+  {
+    "role": "researcher",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Child",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Child",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Child",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Child",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Child",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Child",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Child",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Child",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Child",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Child",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Child",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Child",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Child",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Child",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Child",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Child",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Child",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Child",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Child",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Child",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Drawing",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Drawing",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Drawing",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Drawing",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Drawing",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Drawing",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Drawing",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Drawing",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Drawing",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Drawing",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Drawing",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Drawing",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Drawing",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Drawing",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Drawing",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Drawing",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Drawing",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Drawing",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Drawing",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Drawing",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Answer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Answer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Answer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Answer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Answer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Answer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Answer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Answer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Answer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Answer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Answer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Answer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Answer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Answer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Answer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Answer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Answer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Answer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Answer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Answer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Survey",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Survey",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Survey",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Survey",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Survey",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Survey",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Survey",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Survey",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Survey",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Survey",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Survey",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Survey",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Survey",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Survey",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Survey",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Survey",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Survey",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Survey",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Survey",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Survey",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Researcher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Researcher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Researcher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Researcher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Researcher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Researcher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Researcher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Researcher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Researcher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Researcher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Researcher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Researcher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Researcher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Researcher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Researcher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Researcher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Researcher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Researcher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Researcher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Researcher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Question",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Question",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Question",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Question",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Question",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Question",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Question",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Question",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Question",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Question",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Question",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Question",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Question",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Question",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Question",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Question",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Question",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Question",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Question",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Question",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Choice",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Choice",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Choice",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Choice",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Choice",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Choice",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Choice",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Choice",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Choice",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Choice",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Choice",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Choice",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Choice",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Choice",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Choice",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Choice",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "researcher",
+    "resource": "Choice",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Choice",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Choice",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "child",
+    "resource": "Choice",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]

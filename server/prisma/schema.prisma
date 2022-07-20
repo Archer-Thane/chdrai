@@ -1,0 +1,119 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(cuid())
+  lastName  String?
+  password  String
+  roles     String[]
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Child {
+  age         Int
+  answers     Answer[]
+  createdAt   DateTime              @default(now())
+  drawings    Drawing[]
+  gender      EnumChildGender
+  id          String                @id @default(cuid())
+  nationality EnumChildNationality?
+  phoneNumber String                @unique
+  smsCode     String?
+  updatedAt   DateTime              @updatedAt
+}
+
+model Drawing {
+  childId     Child?   @relation(fields: [childIdId], references: [id])
+  childIdId   String?
+  createdAt   DateTime @default(now())
+  fileAddress String?
+  id          String   @id @default(cuid())
+  surveys     Survey[]
+  updatedAt   DateTime @updatedAt
+}
+
+model Answer {
+  childId      Child     @relation(fields: [childIdId], references: [id])
+  childIdId    String
+  createdAt    DateTime  @default(now())
+  id           String    @id @default(cuid())
+  questionId   Question? @relation(fields: [questionIdId], references: [id])
+  questionIdId String?
+  surveyId     Survey    @relation(fields: [surveyIdId], references: [id])
+  surveyIdId   String
+  updatedAt    DateTime  @updatedAt
+  value        String?
+}
+
+model Survey {
+  answers        Answer[]
+  createdAt      DateTime    @default(now())
+  description    String?
+  drawingId      Drawing?    @relation(fields: [drawingIdId], references: [id])
+  drawingIdId    String?
+  id             String      @id @default(cuid())
+  numOfQuestions Int
+  questions      Question[]
+  researcherId   Researcher? @relation(fields: [researcherIdId], references: [id])
+  researcherIdId String?
+  title          String
+  updatedAt      DateTime    @updatedAt
+}
+
+model Researcher {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(cuid())
+  lastName  String?
+  surveys   Survey[]
+  updatedAt DateTime @updatedAt
+}
+
+model Question {
+  answers        Answer[]
+  choices        Choice[]
+  createdAt      DateTime                   @default(now())
+  id             String                     @id @default(cuid())
+  indexInSurvey  Int
+  questionText   String
+  surveyId       Survey                     @relation(fields: [surveyIdId], references: [id])
+  surveyIdId     String
+  typeOfQuestion EnumQuestionTypeOfQuestion
+  updatedAt      DateTime                   @updatedAt
+}
+
+model Choice {
+  choiceText   String
+  createdAt    DateTime @default(now())
+  id           String   @id @default(cuid())
+  questionId   Question @relation(fields: [questionIdId], references: [id])
+  questionIdId String
+  updatedAt    DateTime @updatedAt
+}
+
+enum EnumChildGender {
+  Male
+  Female
+}
+
+enum EnumChildNationality {
+  Persian
+  Norwegian
+  Indian
+}
+
+enum EnumQuestionTypeOfQuestion {
+  ShortAnswer
+  LongAnswer
+  SingleChoice
+  MultiChoice
+}
